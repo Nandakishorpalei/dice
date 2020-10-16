@@ -57,7 +57,7 @@ function name(player1,player2){
 document.querySelectorAll("p")[0].innerHTML=player11;
 document.querySelectorAll("p")[1].innerHTML=player22;
  if(Randomnumber1>Randomnumber2){
-  document.querySelector("h1").innerHTML="⛳ "+player11 + " is winner ";
+  document.querySelector("h1").innerHTML="⛳ "+player11 + " is winner ☺ ";
 }
 else if(Randomnumber1<Randomnumber2){
  document.querySelector("h1").innerHTML=player22+" is winner ⛳";
